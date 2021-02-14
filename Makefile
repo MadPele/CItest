@@ -1,4 +1,6 @@
 deps:
 	pip install -r requirements.txt
 run:
-	python app.py
+	python main.py
+lint:
+	flake8 app test
